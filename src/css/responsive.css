@@ -1,0 +1,122 @@
+@media (max-width: 1200px) {
+    body {
+        background-color: #05077e;
+    }
+
+    .fundo-video {
+        display: none;
+    }
+
+    .conteiner {
+        flex-wrap: wrap;
+        justify-content: center;
+        height: fit-content;
+        gap: 30px;
+    }
+
+    .conteiner .personagens {
+        max-width: 50%;
+    }
+
+    .conteiner .informacoes {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .conteiner .discricao {
+        color: #ffffff;
+        text-align: center;
+    }
+
+    .conteiner .button-trailer {
+        background-color: rgb(255, 208, 0);
+    }
+    
+    .pagina-detalhes{
+        flex-wrap: wrap;
+        justify-content: center;
+        height:fit-content;
+        gap: 30px;
+    }
+
+    .pagina-detalhes .informacoes-de {
+       display: flex;
+       align-items: center;
+       flex-direction: column;
+    }
+
+    .pagina-detalhes .detalhes {
+        color: #ffffff;
+        text-align: center;
+    }
+
+    .informacoes-de .button-crunchyroll {
+        background-color: rgb(255, 208, 0);
+    }
+
+}
+footer{
+    clear: both;
+    position:absolute 20px;
+    bottom: 0;       
+    width: 100%;
+}
+
+
+@media (max-width: 500px) {
+    .cabecalho {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px
+    }
+
+    .conteiner .imagem-titulo {
+        max-width: 75%;
+    }
+
+    .modal .fechar-modal {
+        width: 30px;
+        line-height: 30px;
+    }
+    .modal #video {
+        width: 300px;
+        height: 169px;
+    }
+
+    .pagina-detalhes {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+    .rodape {
+        position: fixed;
+    }
+}
+
+@media (max-width: 376px) {
+    .modal #video {
+        width: 250px;
+        height: 140px;
+    }
+}
+@media (width: 1280px) {
+.fundo-video {
+    width: 100vw;
+    height: 100vh;
+}
+}
+
+@media (width: 1440px) {
+.fundo-video {
+    width: 100vw;
+    height: 110vh;
+}
+}
+
+@media (width: 1280px) {
+.fundo-video {
+    width: 100vw;
+    height: 105vh;  
+}
+}
